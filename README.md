@@ -1,6 +1,11 @@
 # YoutubeGet1080p
 Downloader for 1080p youtubevideo with audio
 
+-------------
+
+EDIT: I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. You do not need to install python and the required libraries to work with this exe file. It is for windows only
+
+-------------
 
 A simple python file for downloading a youtube video in 1080p and with audio. There are websites online that can do that for you. But they are dubious in nature and often do not have the option to download in full 1080p and/or do not have the audio present.
 
