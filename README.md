@@ -5,6 +5,8 @@ Downloader for 1080p youtubevideo with audio
 
 EDIT: I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. You do not need to install python and the required libraries to work with this exe file. It is for windows only
 
+![](./assets/Youtube_Gui.PNG)
+
 !YOU MUST HAVE ffmpeg.exe IN THE SAME FOLDER AS THE GUI EXECUTABLE FILE!
 
 -------------
