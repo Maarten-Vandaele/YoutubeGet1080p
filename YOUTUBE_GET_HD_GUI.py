@@ -26,15 +26,28 @@ while True:
         url = values[0]
         vidname = values[1]
 
-        video = pytube.YouTube(url)
+        try:
+            video = pytube.YouTube(url)
 
-        for stream in video.streams:   #get itag for video
+        except pytube.exceptions.RegexMatchError:
+            window.close()
+            sg.popup("De URL wordt niet herkend.", auto_close=False, keep_on_top=True)
+            break
+
+        for stream in video.streams:
             if 'video/mp4' in str(stream) and '1080p' in str(stream):
-#               print(stream)
+                print(stream)
                 vtag = str(stream)[15:18]
-#               print(vtag)
 
-        vstream = video.streams.get_by_itag(vtag)
+
+        try:
+            vstream = video.streams.get_by_itag(vtag)
+
+        except NameError:
+            window.close()
+            sg.popup("De video lijkt geen HD (1080p) te zijn.", auto_close=False, keep_on_top=True)
+            break
+
         astream = video.streams.get_by_itag(140)
 
         vstream.download(filename="vstream")
