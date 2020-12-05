@@ -3,11 +3,12 @@ Downloader for 1080p youtubevideo with audio
 
 -------------
 
-EDIT: I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. You do not need to install python and the required libraries to work with this exe file. It is for windows only
+EDIT: I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. You do not need to install python and the required libraries to work with this exe file. 
 
 ![](./assets/Youtube_Gui.PNG)
 
 !YOU MUST HAVE ffmpeg.exe IN THE SAME FOLDER AS THE GUI EXECUTABLE FILE!
+(but you can shortcut to the gui executable from somewhere else.)
 
 -------------
 
@@ -23,7 +24,7 @@ pip install pytube
 pip install ffmpy
 pip install os
 
-Output files are created in the folder op the python script as an mp4.
+Output files are created in the folder of the script as an mp4. Unless you use the GUI, then you can choose the output folder.
 
 
 
