@@ -27,13 +27,7 @@ I combined the libraries pytube, ffmpy and os to pull of the URL and combine vid
 You have to pip install all mentioned libs.
 
 pip install pytube
+
 pip install ffmpy
+
 pip install os
-
-
-EXTRA INFO AND TIPS:
-
-Output files are created in the folder of the script as an mp4. Unless you use the GUI, then you can choose the output folder.
-
-
-
