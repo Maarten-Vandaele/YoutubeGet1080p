@@ -5,7 +5,7 @@ Downloader for 1080p youtubevideo with audio
 
 EDIT: 
 
-I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. At Sphinx cinema we were in need of high resolution trailers that were easily and quickly downloaded for use on the website and our signage screens at the cash register. You do not need to install python and the required libraries to work with this exe file, so everyone can use it after download.
+I crafted a simple GUI (in dutch for the moment) so I can share it with colleagues and friends. At Sphinx cinema we were in need of high resolution trailers that were easily and quickly downloaded for use on the website and our signage screens at the cash register. You do not need to install python and the required libraries for it to work. I constructed a GUI and an executable file, so everyone (with a windows os) can use it after download. 
 
 ![](./assets/Youtube_Gui.PNG)
 
